@@ -1,5 +1,5 @@
 <?php
-$con= mysqli_connect("localhost", "id17610880_root", "VyO{*#L\sP}45{OA", "id17610880_users") or die(mysqli_error($con));
+$con= mysqli_connect("localhost", "id17610880_mydb", "i#){vK(de54@}LQ@", "id17610880_user") or die(mysqli_error($con));
 $all_select_query="SELECT * FROM users_details";
 $all_select_query_result= mysqli_query($con, $all_select_query) or die(mysqli_error($con));
 $number_of_rows_all=mysqli_num_rows($all_select_query_result);
